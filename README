@@ -2,7 +2,8 @@
 
 This is an *experimental lightweight approach* to enable quickly parsing HTML into an AST and stringify'ing it back to the original string.
 
-As it turns out, if you can make a the simplifying assumptions about HTML that all tags must be closed or self-closing. Which is OK for *this* particular application. You can write a super light/fast parser in JS with regex.
+As it turns out, if you can make a the simplifying assumptions about HTML that all tags must be closed or self-closing. Which is OK for *this* particular application. 
+You can write a super light/fast parser in JS with regex.
 
 "Why on earth would you do this?! Haven't you read: http://stackoverflow.com/questions/1732348/regex-match-open-tags-except-xhtml-self-contained-tags ?!?!"
 
